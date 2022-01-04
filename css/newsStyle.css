@@ -7,6 +7,9 @@
     .contentWrapper img {
         width: 50%;
     }
+    .textWrapper h3 {
+        text-align: center;
+    }
   }
 
 .topText {
@@ -21,9 +24,10 @@
     margin: 0 auto;
     margin-bottom: 30px;
 }
-.new span {
+.new h3 {
     color: white;
     font-size: 22px;
+    margin: 0;
 }
 .textWrapper {
     margin-left: 30px;
@@ -36,7 +40,6 @@
     margin-left: 30px;
     margin-top: 15px;
     padding-bottom: 17px;
-
 }
 .contentWrapper p {
     color: white;
