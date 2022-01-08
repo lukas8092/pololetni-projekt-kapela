@@ -107,6 +107,9 @@ footer div{
     padding-top: 8px;
     padding-bottom: 5px;
 }
+.footerContacts ul{
+    padding-left: 0;
+}
 .footerContacts ul li {
     list-style: none;
     color: white;

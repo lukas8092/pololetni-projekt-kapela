@@ -1,0 +1,40 @@
+@media only screen and (max-width: 600px) {
+    div.membersList {
+        width: 95%;
+    }
+    div.textWrapper p {
+        color: white;
+        width: 80%;
+        text-align: center;
+    
+    }
+  }
+
+.topText {
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 45px;
+}
+.textWrapper p {
+    color: white;
+    width: 50%;
+    text-align: center;
+
+}
+.textWrapper {
+    display: flex;
+    justify-content: center;
+}
+.membersList {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 40px;
+}
+.member h4 {
+    text-align: center;
+    color: white;
+}
