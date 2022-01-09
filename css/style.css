@@ -1,12 +1,104 @@
+@media only screen and (max-width: 900px) {
+    div.headerRight{
+        display: none;
+    }
+    div.menuBtnWrapper{
+        display: flex;
+    }
+    div.menu{
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: rgba(83, 83, 83, 0.8);
+        width: 100%;
+        z-index: 50;
+    }
+    div.menu button {
+        float: right;
+        border: none;
+        background: none;
+        cursor: pointer;
+        margin-top: 17px;
+        margin-right: 15px;
+    }
+    div.mainNew {
+        width: 90%;
+    }
+    div.mainConcerts h2 {
+        font-size: 30px;
+    }
+    div.list {
+        column-gap: 25px;
+        width: 100%;
+    }
+    ul {
+        padding-left: 0 !important;
+    }
+    
+  }
+
 body {
     font-family: "Segoe UI", Arial, sans-serif;
     margin: 0;
     background-color: black;
 }
+.black {
+    display: none;
+    position: fixed;
+    z-index: 40;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.9;
+}
+menu button i {
+    float: right;
+    font-size: 50px;
+}
+.menu {
+    display: none;
+}
+.full {
+    width: 100% !important;
+}
+.menuItem {
+    padding: 10px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.menuItem:hover {
+    background-color: rgba(83, 83, 83, 0.9);
+}
+.menuItem a {
+    color: white;
+    font-size: 30px;
+}
+.imgWrapper{
+    display: flex;
+    justify-content: center;
+}
+.menuItem a:hover {
+    color: white;
+}
 header{
     background-color: black; 
     height: 75px;
 }
+.menuBtnWrapper {
+    display: none;
+    align-items: center;
+    float: right;
+    justify-content: flex-end;
+}
+.menuBtn {
+    margin-top: 17px;
+    margin-right: 15px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
 .headerLeft a {
     float: left;
     margin-left: 2%;

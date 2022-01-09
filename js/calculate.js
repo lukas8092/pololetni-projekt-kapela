@@ -7,7 +7,11 @@ $(document).ready(function(){
         console.log(mainHeight);
         var toEnd = heightOfScreen - mainHeight;
         var footer = $("footer");
-        footer.css("margin-top", toEnd-footer.height()-68+ "px");
+        var final = toEnd-footer.height()-68;
+        console.log(final)
+        if(final > 1){
+        footer.css("margin-top",final + "px");
+        }
     }
 
     calculateToBottom(); 
