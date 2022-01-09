@@ -1,3 +1,6 @@
+@import "style";
+
+
 @media only screen and (max-width: 600px) {
     div.contentWrapper {
         justify-content: center;
@@ -19,7 +22,7 @@
     div.album {
         width: 40%;
     }
-  }
+}
 .topText {
     color: white;
     text-align: center;
@@ -35,13 +38,15 @@
     justify-content: center;
 
 }
-.albumPlay h3 {
-    color: white;
-    font-size: 22px;
-    margin: 0;
-    text-align: center;
-    padding-top: 15px;
-    margin-bottom: 15px;
+.album {
+    h3 {
+        color: white;
+        font-size: 22px;
+        margin: 0;
+        text-align: center;
+        padding-top: 15px;
+        margin-bottom: 15px;
+    }
 }
 .textWrapper {
     margin-left: 30px;
@@ -50,22 +55,34 @@
 .contentWrapper {
     padding: 0 20px;
     width: 40%;
-}
-.contentWrapper p {
-    color: white;
+    p {
+        color: white;
+    }
+    h4 {
+        color: white;
+        text-align: center;
+    }
+    li {
+        list-style: none;
+        color: white;
+        text-align: center;
+    }
+    ol {
+        padding: 0;
+    }
 }
 .buttonWrapper {
     display: flex;
     justify-content: center;
     padding-top: 30px;
-}
-.buttonWrapper button {
-    color: white;
-    background-color: #292828;
-    border: none;
-    padding: 20px 25px;
-    border-radius: 5px;
-    cursor: pointer;
+    button {
+        color: white;
+        background-color: #292828;
+        border: none;
+        padding: 20px 25px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
 }
 .buttonWrapper button:hover {
     color: lightgray;
@@ -83,16 +100,4 @@
     justify-content: center;
     column-gap: 15px;
     margin-top: 15px;
-}
-.contentWrapper h4 {
-    color: white;
-    text-align: center;
-}
-.contentWrapper li {
-    list-style: none;
-    color: white;
-    text-align: center;
-}
-.contentWrapper ol {
-    padding: 0;
 }

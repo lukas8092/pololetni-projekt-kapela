@@ -35,8 +35,7 @@
         padding-left: 0 !important;
     }
     
-  }
-
+}
 body {
     font-family: "Segoe UI", Arial, sans-serif;
     margin: 0;
@@ -51,35 +50,37 @@ body {
     background-color: black;
     opacity: 0.9;
 }
-.menu button i {
-    float: right;
-    font-size: 50px;
-}
 .menu {
     display: none;
-}
-.full {
-    width: 100% !important;
+    button {
+        i {
+            float: right;
+            font-size: 50px; 
+        }
+    }
 }
 .menuItem {
     padding: 10px 0;
     width: 100%;
     display: flex;
     justify-content: center;
+    a {
+        color: white;
+        font-size: 30px;
+    }
 }
 .menuItem:hover {
     background-color: rgba(83, 83, 83, 0.9);
 }
-.menuItem a {
+.menuItem a:hover {
     color: white;
-    font-size: 30px;
+}
+.full {
+    width: 100% !important;
 }
 .imgWrapper{
     display: flex;
     justify-content: center;
-}
-.menuItem a:hover {
-    color: white;
 }
 header{
     background-color: black; 
@@ -98,21 +99,23 @@ header{
     background: none;
     cursor: pointer;
 }
+.headerLeft {
+    a {
+        float: left;
+        margin-left: 2%;
+        height: 75px;
+        display: flex;
+        align-items: center;
+        column-gap: 7px;
+        text-decoration: none;
+    }
+    h1 {
+        color: white;
+    }
 
-.headerLeft a {
-    float: left;
-    margin-left: 2%;
-    height: 75px;
-    display: flex;
-    align-items: center;
-    column-gap: 7px;
-    text-decoration: none;
 }
 .headerLeft a:hover {
     text-decoration: none;
-}
-.headerLeft h1 {
-    color: white;
 }
 .headerRight{
     float: right;
@@ -121,15 +124,14 @@ header{
     display: flex;
     column-gap: 70px;
     align-items: center;
-}
-.headerRight a {
-    text-decoration: none;
-    color: white;
-    font-size: 22px;
+    a {
+        text-decoration: none;
+        color: white;
+        font-size: 22px;
+    }
 }
 .headerRight a:hover {
     color: lightgray;
-
 }
 .carousel-inner{
     max-height: 500px;
@@ -138,14 +140,14 @@ main {
     background-color: black;
     padding-bottom: 40px;
 }
+.mainNews{
+    width: 100%;
+}
 .mainNews h2, .mainConcerts h2 {
     margin-top: 65px;
     text-align: center;
     color: white;
     font-size: 40px;
-}
-.mainNews{
-    width: 100%;
 }
 .mainNew {
     width: 50%;
@@ -191,16 +193,29 @@ main {
     text-align: center;
     font-size: 35px;
 }
-footer div{
-    background-color: #515151;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding-top: 8px;
-    padding-bottom: 5px;
+footer {
+    div{
+        background-color: #515151;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding-top: 8px;
+        padding-bottom: 5px;
+    }
 }
-.footerContacts ul{
-    padding-left: 0;
+div.footerContacs {
+    ul{
+        padding-left: 0;
+        color: white;
+        li {
+            list-style: none;
+            color: white !important;
+            a {
+                text-decoration: none;
+                color: white;
+            }
+        }
+    }
 }
 .footerContacts ul li {
     list-style: none;
@@ -210,14 +225,14 @@ footer div{
     text-decoration: none;
     color: white;
 }
-div.foooterSocial a {
-   display: flex !important;
-   align-items: center !important;
-}
-.foooterSocial {
+div.foooterSocial {
     display: flex;
     justify-content: center;
     align-items: center;
+    a {
+        display: flex !important;
+        align-items: center !important;
+     }
 }
 .fa {
     color: white;
@@ -231,12 +246,12 @@ div.foooterSocial a {
   max-width: 150px;
   display: flex;
   justify-content: flex-start;
-}
-.footerNavigation h4 {
+  h4 {
     color: white;
     font-size: 20px;
     width: 100%;
     margin: 0;
+}
 }
 .navItems {
     display: flex;
@@ -245,16 +260,14 @@ div.foooterSocial a {
     gap: 3px;
     width: 100%;
     column-gap: 20px;
-}
-.navItems a {
-    text-decoration: none;
-    color: white;
-    font-size: 15px;
+    a {
+        text-decoration: none;
+        color: white;
+        font-size: 15px;
+    }
 }
 .navItems a:hover {
     text-decoration: none;
     color: lightgray;
     font-size: 15px;
 }
-
-

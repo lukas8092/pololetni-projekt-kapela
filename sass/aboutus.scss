@@ -1,3 +1,5 @@
+@import "style";
+
 @media only screen and (max-width: 600px) {
     div.membersList {
         width: 95%;
@@ -8,22 +10,21 @@
         text-align: center;
     
     }
-  }
-
+}
 .topText {
     color: white;
     text-align: center;
     margin-top: 30px;
     font-size: 45px;
 }
-.textWrapper p {
-    color: white;
-    width: 50%;
-    text-align: center;
-}
 .textWrapper {
     display: flex;
     justify-content: center;
+    p {
+        color: white;
+        width: 50%;
+        text-align: center;
+    }
 }
 .membersList {
     width: 50%;
