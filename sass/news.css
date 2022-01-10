@@ -2,6 +2,9 @@
   div.headerRight {
     display: none;
   }
+  div.headerLeft h1 {
+    font-size: 25px;
+  }
   div.menuBtnWrapper {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -393,7 +396,7 @@ div.foooterSocial a {
 
 .new {
   background-color: #212121;
-  width: 70%;
+  width: 80%;
   margin: 0 auto;
   margin-bottom: 30px;
 }
